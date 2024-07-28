@@ -7,7 +7,7 @@ class Solution {
         int b = 2;
         for(int i = 0; i<n-3 ; i++){
             a = a+b;  // a+=b;
-            b = a-b;  
+            b = a-b;  // storing the value of previous two elements
         }
         return a;
     }
