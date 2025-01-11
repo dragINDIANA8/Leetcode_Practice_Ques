@@ -1,7 +1,7 @@
-class Solution {
+ class Solution {
     public char nextGreatestLetter(char[] letters, char target) {
         int li = 0;   // lower index
-        int hi = letters.length-1;
+        int hi = letters.length-1;  // higher index
 
         while(li<=hi){
             int mid = (li+hi)/2;
