@@ -8,7 +8,7 @@ class Solution {
         while (i < j) {
             // Calculate width and height
             int w = j - i;
-            int h = Math.min(height[i], height[j]);
+            int h = Math.min(height[i], height[j]);  //minimum of both the heights will be our actual height
 
             // Calculate area and update maxWater
             int area = w * h;
